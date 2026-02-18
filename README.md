@@ -2,6 +2,9 @@
 
 A desktop application for AI-powered image inpainting. Paint a mask over any part of an image, optionally describe what you want, and let Google's Gemini API intelligently remove or replace the masked region.
 
+**LIVE WEB VERSION**: [https://scuffedepoch.com/bananapro-inpaint/](https://scuffedepoch.com/bananapro-inpaint/)
+_is now available._
+
 ![app-screenshot](https://raw.githubusercontent.com/MushroomFleet/BananaPro-Inpainting/refs/heads/main/demo-inpainting.png)
 Built with React, TypeScript, and [Tauri](https://tauri.app/) for a lightweight native desktop experience.
 
@@ -20,8 +23,6 @@ v1.0.0 Beta Release
 - use of images over 4K should be avoided, the system is not downscaling inputs and you can overload the API. 
 - we tested with 1.5MP (or up to ~2K longest side) samples.
 
-**LIVE WEB VERSION**: https://scuffedepoch.com/bananapro-inpaint/
-_is now available._
 
 ## Installation
 
