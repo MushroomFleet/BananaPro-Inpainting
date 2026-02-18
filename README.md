@@ -13,6 +13,16 @@ Built with React, TypeScript, and [Tauri](https://tauri.app/) for a lightweight 
 - **Gallery** - All results are saved locally using IndexedDB. Browse, preview in a lightbox, select for bulk download or deletion, and re-edit any saved image directly from the gallery.
 - **Touch Support** - Works on touch-enabled devices.
 
+v1.0.0 Beta Release
+
+- New Multi-Image mode is experimental, we aim to place the reference into the masked region.
+- Output resolution options compatible with the API have now been exposed.
+- use of images over 4K should be avoided, the system is not downscaling inputs and you can overload the API. 
+- we tested with 1.5MP (or up to ~2K longest side) samples.
+
+**LIVE WEB VERSION**: https://scuffedepoch.com/bananapro-inpaint/
+_is now available._
+
 ## Installation
 
 Download the latest MSI installer from the [Releases](https://github.com/MushroomFleet/BananaPro-Inpainting/releases) page and run it to install BananaPro Inpainting on Windows.
